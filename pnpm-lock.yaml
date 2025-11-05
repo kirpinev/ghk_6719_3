@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@alfalab/core-components':
-        specifier: ^49.7.0
-        version: 49.7.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^47.3.0
+        version: 47.26.8(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@alfalab/icons-glyph':
         specifier: ^2.260.0
         version: 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -69,746 +69,12 @@ importers:
 
 packages:
 
-  '@alfalab/core-components-accordion@2.0.2':
-    resolution: {integrity: sha512-YQRNFYeidTDI8Ex7+haX0u81F2Md8nH4dXeVlyvjAk+LwMCcPpLJvZIlrd+a65MuHCB4H8xLw6FsZlbkPu86uw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-action-button@2.0.1':
-    resolution: {integrity: sha512-MNfB5wFZcZJGULfhoimEx+SQyP3VfQ1gp3kSJw8eBLl9iI9N75ds/UZl3LFzXoMfZcyhAnjkyK03bB0YzdM8Zg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-alert@5.0.2':
-    resolution: {integrity: sha512-fOPT4p89ZkqmHU4EbMIgGLyI0dnfM2Lou94PD0uggUnkoEg+PD8QAVEPo68Z+VrMw1cM2rOTbRMN01D0wxz3ZA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-amount-input@8.1.2':
-    resolution: {integrity: sha512-opp45kCqqDMKocl4KpBlABTIUheZHETRTLM/rlfOL1qccVT8QH1jhJmgWrjb8eR0LkkHKDm5cehRvhDf/uIKvQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-amount@4.0.0':
-    resolution: {integrity: sha512-aT0ULhiM+NeUbTj4PEgbRzQEapm9ITu+91ody6NQVvQ4v5SFWuYydkjNwXye7g90Mpy62hDSY22MTURHO8WsPw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-attach@7.0.1':
-    resolution: {integrity: sha512-u+OMu65LuDT4NdcpQIUn610J8gBumKIl+J5Sp/gnQY++8QlanYg/QCJP4VPO36aAXbJa+4Juh/5lxJpjVWMxBw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-backdrop@4.0.0':
-    resolution: {integrity: sha512-6BbXiV32nqMQMpeDIKaigiSMkPAUzIFgK8cv2DhKOvZJbEcLfpPwzExgvfcCLf7Rt53hZh1aoa3WBdzEk1aLCg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-badge@6.0.0':
-    resolution: {integrity: sha512-1yq1qKch7p7E6ZgSOZCfJ4A/Hake3CKHrfDGHQwlIxTMjE1AP+TSqhS0AeIOGTeQwM+eKOep/METY/3GpgoN0A==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-bank-card@6.0.2':
-    resolution: {integrity: sha512-tMkcZMgk1PHaEsy/+mPiszI2mO+juyHEOTCf32yNliMuq+pIj32TzwsEIIczmwqcjLBHbq1kVWe6z0lFWaBxJA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-base-modal@6.0.1':
-    resolution: {integrity: sha512-reIlf+SY1sgSgFHe16ly7y76E6xx3P3RmVqDPaYiUx/vAMSJ3w9Ga0xhH5kmwn04hSrT25irrfxiCygfqxHcnA==}
-    peerDependencies:
-      '@alfalab/core-components-stack-context': ^1.0.0
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-bottom-sheet@7.0.2':
-    resolution: {integrity: sha512-Xcrazm2kN9S14WuupHDHSrz4hWJwSHxSQHA+3CogPSJTCUitEAE4f9Au3mfdVVFPy2OyvPIuHi5PZHRJb4Gx+A==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-button@12.0.1':
-    resolution: {integrity: sha512-SDEg+tRHwJ3bnXFZF3YBbx4Lim5TD5u70NcXKpEXFchkZD5Pg2P3ZoeQrjBatv6jewHVY/5PU6XZyTcVtVJjMA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-calendar-input@11.0.3':
-    resolution: {integrity: sha512-hC/4gduQ0VAKWO5+5ENw+kY3G0D06h8lX923aXEtw/em7nEZ8xVHx+HjtiuNA7lQ7iDAyed+3fE/8qTBTBmehA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-calendar-range@8.0.3':
-    resolution: {integrity: sha512-BgIYrCXSid7+V3H8WSXzNR9TY4/ZTHG5paqxeIxC0nRr8HHMC8/McYgTu21lzsBEJRpRZdV03iiVILJdJajMqw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-calendar-with-skeleton@6.0.2':
-    resolution: {integrity: sha512-rHTRgXGG8acwZMycYqbOkgPjvJEKjAMVOaxhrWvfM++KjzVlBt31Sh1WJbpU0+kk2EyWgWc/5fuEI5+9Ox8CTg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-calendar@8.0.2':
-    resolution: {integrity: sha512-ZBJPXq9WrJlLWvlV+gYohp+dZwRoEMc6XddfWrth9P5Lq0m0xADc5rgVmCrfUnkhI8zPdMFLuysmwhDMhCP9UA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-card-image@4.1.0':
-    resolution: {integrity: sha512-/MTh7w7hUkSrAGyBzg6zLcTQLklf8Zphhyu+m28097IEjFV5f6oInPswZhMcH7oZsmDNXSEuL+wJ6SBS7pnjIQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-cdn-icon@6.0.1':
-    resolution: {integrity: sha512-jjWib8od41LD67Olsdlpro55g2g1gw6YBcArDiLtSR6DVsTNIqwH0/AjWz5EunCH6qZsPzmWxh1cYCSqxrLD9g==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-chart@4.0.2':
-    resolution: {integrity: sha512-RUVv5HDYci+eebnaUwyc0LBoihrS2z4fve2jhFZ1jn8jua9uYTDi+5ccmycfkiZ5cyPvqjSTRq/9cO9h4zZUZg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-checkbox-group@5.1.0':
-    resolution: {integrity: sha512-frQ1M+MsLSqMxiXfEkdgrqx45wLmATaXaGvLW6D7+Js1oFYD5dYxLQzCOG6bK+ojDB+heFYf1WAy8eHXMIeVUQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-checkbox@5.0.1':
-    resolution: {integrity: sha512-ithfr2r00hIw0n2Nh+ObSktqLglBzwm8/G/AOSkQ9ykHdXh/Z3wxCzbP69D15+5CYDwiKqDILt0MOET7VgL2Zg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-circular-progress-bar@4.0.2':
-    resolution: {integrity: sha512-Ij5O5F+gvH1i3qc8PcBjWUJzHenc0a6aWnbHPvPPyWwKd6CPHaNByU4dl48KIJWJErx2r+gf6uX+X5gCCZwjmQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-code-input@4.0.1':
-    resolution: {integrity: sha512-1Y3eK5uXxCqenasXM6acQ0SqxzAnUiD00/orRENnN94a7Yh3Z80TtwqO1s88h8y0CdDuX7QmYTqX208viBVHpQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-collapse@5.0.1':
-    resolution: {integrity: sha512-zNBDJbXnhoka/DqHVyttN9/DNONG2zZ5VYhS6DOyWBGVZYULECyXoPiqjkLQ5vIl9GWx7sShcopu5CK7ZZCvOA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-comment@3.0.2':
-    resolution: {integrity: sha512-si4zmvYhUYO4Mvx1RlKWSjsCgXNqRk0LQ5N1btWS4ntNUwV32w+xAVYPCCFOvHd92eSeytAp3Sdadh4zigGjyQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-config@1.0.0':
-    resolution: {integrity: sha512-5bjj6Yg/N/3NVK2yhj3ksdXPwdAbI/8wqy1irRiuwuzdU36KZ0DngZ6Lon+8zDWAUbNTpiKaMYkFby7JxssTyw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-confirmation-v1@2.0.1':
-    resolution: {integrity: sha512-9NZfmGaDDBmXzt+ahdmPXzs6yCElAt7vtRWZ/g1YRgb1xaN3kyoGXizeQ51iM9cv5IYChTzkIdArFGX1MEPvVA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-confirmation@14.1.0':
-    resolution: {integrity: sha512-bn1hQ5Zc1Deh7JD3GrBiC5W/tMvkQf39gwo24AI4JwsB+PkpGZDRbM2U0nJixL3zkXQpRAIdZTqnswKoOliskg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-custom-button@4.0.1':
-    resolution: {integrity: sha512-wMVeqrZeLp4EqOC2l6N2/4HZ4qk8YBSlVVgt0LRsYm8OsyocGyE7kdCAEjm+Q3uUOW4toplPgdxBY8UdHczV0w==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-custom-picker-button@3.0.3':
-    resolution: {integrity: sha512-uwISJUl73YIdiPDE0NgtwqC7FBOUul91JALcX5+yiWaB0hVTBtUkRns6ta1jlcKDgEzcMBORfjQ4mXWehefUkQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-date-input@5.0.2':
-    resolution: {integrity: sha512-bY0SKQ2eIY/Dugo5OqKl6Fc97CmUwMZLrk9V/XK/BtJuYPTeXVhaqcHtdC7f3t5iFElY6IrBTwkybN4J+z4feQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-date-range-input@4.0.3':
-    resolution: {integrity: sha512-B31optJsEBKEq5WxOKY9GSWSPMbaygVq6VR2vfyHovCI2OTSUvbfEscMDF4piOvR/lwVdX96PofBZsAdGKP5mw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-date-time-input@5.0.3':
-    resolution: {integrity: sha512-PtB7W4BvWB7M9sJcgXKTvRwY5sX+5qSRTuxEzzq28D8CEXUR5op6xy0jIxPbSSzlof7kzTXRS7Vwtqs4CtQeBQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-divider@4.0.0':
-    resolution: {integrity: sha512-C94p3XX9GOVwA4kIZjzoEuSu+ONdIY5xBQvFFOJzu7bpsHHmBv+3qsA4d2V56wCHLcL93jeIvotqS3I//SjECA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-drawer@6.0.1':
-    resolution: {integrity: sha512-ci7T1HImKOfUhweZ6Wrg4cZmz7T+vmKfrtSdp3Gb6g0AaW67Ps8/9Xn5lp70mrsVYZMEDrm1kt9JG5XMpQgsOQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-dropzone@5.0.1':
-    resolution: {integrity: sha512-pocbkscK0B+Nb43r8i9yEP/B2/IXerTZSgxIq+HY3czZHeWAjfFEOBHN8L5LjJsvHyQ/OzCMZhaj6Zq6SBhRbQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-file-upload-item-v1@2.0.1':
-    resolution: {integrity: sha512-oHtqgQp6MrVD/2+aRABdP/Jn5zEis4ZOqzKAVSLd5LjEXWBSbeGezQkSxXCctYS8Qy8IMIyI31AeZwXOczVd6w==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-file-upload-item@7.1.0':
-    resolution: {integrity: sha512-Vn2L++BhFvC3srLdl4mEzcEXAaWYhi1hyX32TYFtGZlEBr4Rv4NG8QbuvJIH5ZROphfmgI1W2zV94MJ5nob1qg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-filter-tag@6.0.1':
-    resolution: {integrity: sha512-ZKqm4HcAn0gm3Ul+HSNisZsLTELlR3nwjz0kg7vqoCuTNvjZCxR1u5xPVuQgjkFoaka0J7KtFxW0WW4o89T1Hg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-form-control@13.0.1':
-    resolution: {integrity: sha512-SdN+BZC/if1j3KRTKg0B18Niv71Dgp4LdfEmO2IuxVHRQxgVOnXhBvys5+C2+libYzK8YYoL0yBjCT+PmCMAbw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-gallery@6.0.4':
-    resolution: {integrity: sha512-eS8EY3emirx3MV0IH++j+Yj++I7CObECH9IpZfaOH1/vkXG5ne2PeRd2DHVSCeBawNF8zO+sG1Es8FUslR5PqQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-gap@2.0.0':
-    resolution: {integrity: sha512-ziEQCxfObZu7l1kqkG0//SUovIFp2969Tlf/+nZHeHPp+FnTGFx12ZDjxH7yRcvazBZlu4fV4uSAQkqU55/sJQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-generic-wrapper@2.0.0':
-    resolution: {integrity: sha512-EelU0+rHuiKWGi1uqQKGLca74kU96Q/Qls++2KmBConjlV7oQ5rBKNxh6LmS0xzDB5Bsde+lmTxZL15yapfQFg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-global-store@3.0.0':
-    resolution: {integrity: sha512-IDQC7yo7Jxo3jVJer7K7qdpL98wArc9slcgkcL9QQc/AtbkcsfFsQZxLoCjUL9fU7bBnljrif3aLwRxvkexOSA==}
-
-  '@alfalab/core-components-grid@4.0.0':
-    resolution: {integrity: sha512-KN/Q41UIRifOjAjLZnd2OrOA+bSdXarM44C0V9AVerYcX4eOkDPvqmQBML5oypImD7iIX9e0Jvi+QTBLjB53Gw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-hatching-progress-bar@3.0.0':
-    resolution: {integrity: sha512-1GDXg66AQuY0VPEfY2Vqocrd4UsGOGk+flBuwCjngB4/7A6ai6e3qFu6Be8+QNRDE7P5k9DcAVkN7lv/AiP8zg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-icon-button@7.0.1':
-    resolution: {integrity: sha512-+Hty6Lth1R1o7VSwJbealJ5VjejP93M2qFPS9LjjkB7Q0tdzL1DRiNc1iMnXv24O8uG5mZP9y7YreYG3otpThQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-icon-view@4.0.0':
-    resolution: {integrity: sha512-zVG8b1sxxTjIHqfmct9v5OKY7eYqrF7W5mIm3vvTm4otYXy0tixPAVNqucGZnewUgPU9xMeAwc7NJ/zMfw31Sw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-indicator@3.0.0':
-    resolution: {integrity: sha512-iP3h4AmQzHGiAP+bdCeepV4kompM4pvczfXzFJVMGibWt3BX+dX/SkUzrc7cF/J8Ff+F4xtxqlFrNp2rjTZWtQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-input-autocomplete@13.0.3':
-    resolution: {integrity: sha512-qZtGIKE8yDw+5Ikh6CJTKxEhq0za7RvZMMo7dgxVWDetT4zESQBX/VJ2XaZyM9iptvm/KZevawB6OJ4EP47shg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-input@16.0.2':
-    resolution: {integrity: sha512-XMpA4d8lyO6FO5pwlMfT6tFI03eC6xKEgTgY1IFZ05xw2QJrwNnER3H+KpKLNgnc+Q6NtvikNjwRY3rGc1hUTQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-international-phone-input@3.2.0':
-    resolution: {integrity: sha512-VEqtVtvIxHrtZaS1kVVx+Pw7VGIC9x/+E0OzaZTZzFy2j9fE1O0fPvzb0LUmopReOHCE8MqpcKC6m9sX6Wf/dQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-intl-phone-input@10.0.3':
-    resolution: {integrity: sha512-T8S7rXWfMMEKx/gaPCCJTxjmAUAWkWPTSGhvecapbudzm3r5ofAj23kmyDJaFMvv7Asy+gkE+w30WGgj/WwDmA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-keyboard-focusable@5.0.0':
-    resolution: {integrity: sha512-d/xo8Zf+LyusnUNfpWM++FP/A0rVnDl6SUMTj6wVMWnuIhx1a4lgC8524hUxPFMGsRNOpAlsgsRb+x7YNgFuQA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-link@6.0.0':
-    resolution: {integrity: sha512-akSdwZurilny67L1+R9ggMO4NoUeItyF9ZS4abz+vYoXan5DpGY6A2WqPr9OYJK++DDOBZWtiyfQMupU/LbGww==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-list-header@4.0.2':
-    resolution: {integrity: sha512-9+KTmI5PBt8od/aKeT8syy3DBBDNIMbfPPHFLx1xWNMe9V3KK3caJ5hZQPn9uvZukWcs4tN538DLP8nRhquScg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-list@4.0.2':
-    resolution: {integrity: sha512-hOCsHoO2E8TOyF2KSdke69A6WFqpBVgq4HVuhEVqqKgZPQ0NztfXVOyrI9uWsO3zpRjowiMe7GJOOf7pjfVd6A==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-loader@4.0.0':
-    resolution: {integrity: sha512-icPeQJPpVvvjBOTvfnW1jt51adQdqeyQ9O083ZftZOtfJKyNTwk5MvdY11ozTVBQg7vYCchRB/WAnv+9K9yG/A==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-markdown@2.1.1':
-    resolution: {integrity: sha512-fw7pP/9TNIffLbd56Y3gqwCYo+82dxIvu99aBYnagWOlf+89yWi+uU8owt4WH5loAjk8RX0daj3hv/LKFyFiNg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-masked-input@7.0.2':
-    resolution: {integrity: sha512-w9sHuZmMyluGl5OaHlKYJoGvD1SmTIukJmoY15XEGOrklYLZHNkS6fhec+Ahseyrt307AmWm8yCl5AJ5QJHZCw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-modal@10.0.2':
-    resolution: {integrity: sha512-aOKCCjvXgXpSAHguH8nwgeCrRjEiDa/2YPt7LIiakI2Yqt4v71LbPRXiqH/4IL2OZwDlzJZkdh/wjZq4FINDLQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-mq@5.0.1':
-    resolution: {integrity: sha512-pDy42S8rsMMaD9Wcb0TikF3lV+mvvRUu5gnp6PBl/M8quSG0k/oze/IqESu03Zanc9ESAZXvcy7WYOCzwiWs2Q==}
-    peerDependencies:
-      '@alfalab/core-components-config': ^1.0.0
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-navigation-bar-private@1.0.2':
-    resolution: {integrity: sha512-yDEhlG3nenZsLc+LX1fOXstZWmmDTeTOEqsf0kG3jstXVT4AknLSt9gZAwYL35W356krXD8ljFQwnVtYfqZzxA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-navigation-bar@2.0.2':
-    resolution: {integrity: sha512-wHIuvrHPVOIL7D+iI3SLn9w23C60kkeDGnjvzPxdMLDIKBZ7Fh6F2rgTmY9VODOZthX+ny8WKerIWVyLaelbFw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-notification-manager@6.0.1':
-    resolution: {integrity: sha512-gDJhKoHN23sD7XaNN0vFia49eYYK6vu9+SYEv0vBj3Trk265f+zj8lxgnCCgqVprv8XPGzCvr9t0Gt8oRaJllQ==}
-    peerDependencies:
-      '@alfalab/core-components-stack-context': ^1.0.0
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-notification@8.0.1':
-    resolution: {integrity: sha512-2sam9LKVj0sOBAYPPxnbDv9WOtVyD+84lKapwCb38tj3qhHnUh7V7FYwZwobSNIAfz/3jt/WbhZv7llqJoF6gg==}
-    peerDependencies:
-      '@alfalab/core-components-stack-context': ^1.0.0
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-number-input@3.0.2':
-    resolution: {integrity: sha512-OhJKTUZwEucX9umwpDxAeXtr841Dqn/7+P2NNwu94Dwid5cSBQpCc9eebcMk3fmZAEWaUVHgszO1vT429ihI8Q==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-page-indicator@2.0.1':
-    resolution: {integrity: sha512-ey3WR9a3Z5eVZc0dETEuK7X1MxFA4TEQe/wTfexRcpHgYbZ4yWtkD/LV34bqu5zjZjUnjGSz79s7WUAWdb0KXQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-pagination@3.0.1':
-    resolution: {integrity: sha512-M2sMKjdnMf2RQr+yKU4XL+GiomWI6vG2T8zgEP+iKkvqTjglBBKH+UOKI8JAxVLfLDYXS4AYD/fYNd4rIlUptA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-pass-code-v1@2.0.1':
-    resolution: {integrity: sha512-+eCReCZifl87JJ/adhjUSATU8vup8BKwHv4HvjOaDtvTjTS34Fk6M5VVjJ6Tiblft3O1xwKwfNisrNc3/myuaw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-pass-code@3.0.1':
-    resolution: {integrity: sha512-qzE7+cM5WiNfuaagbly+NHfVnGuZsKLamG8Q40gG0YCSJXPAfcXH1PMoMcY9hbOmh1qhjWiEWmF4tYFm0HpC1Q==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-password-input@6.0.2':
-    resolution: {integrity: sha512-Y9Ux0WEV1V8loePz+3MF5XKa65jAQt5XYdEvB4weZ1wnx6i2RSfUBFQtCMwxEdhG9WQHBoEmWRExd7Ui9wqHgg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-pattern-lock-v1@2.0.1':
-    resolution: {integrity: sha512-m81jQj3SS+tRWudl6VisdNqCdQ6TA9y5yBxcsZw78RfS70b/SqC8J50wFrrj9Zkw9J2pecheQI/i3rYUUzu8Gw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-pattern-lock@3.0.1':
-    resolution: {integrity: sha512-v1+9Gxw9TdXveQB3FvuIeDVfjQ51n6Wl0maOf046yuQ9yjKP2QM2G7gt+mha6Rx0lfc81ntZYs4Zy8srBR0bow==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-phone-input@8.0.2':
-    resolution: {integrity: sha512-/tAJpDpL4bGewP83wB3WO0cwKgyfsYBrs//CZusTDjJ0ccMgGN1Xlq57+DAvY9sz2i58ebxO1K57IFoUDwLMhA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-picker-button@12.0.3':
-    resolution: {integrity: sha512-A1OZ9fzwjisLa+Bpr1ZjdjR8RLmwLAUR/V8jp6XTHUduQDd6XLOVVz81ucju/h7ysM01pDcmGKM1mb7eOK+/Tg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-plate@8.1.0':
-    resolution: {integrity: sha512-3AxOYA3rxzw8q5vMCM2g4T9iqHMfF0tfHuZOy1vi07n9KL5Wy90f2dWB28Z+oSLMk5qIzbXDEszJx9YfnWbXuQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-popover@7.1.0':
-    resolution: {integrity: sha512-HetGYaB+i9ufo6551DwbS3AO2lrqxy3i18wdxr66yEN3UHMWDq6DB142XErAVIbrTFMeZ1x8iBPMrNmXz8t83w==}
-    peerDependencies:
-      '@alfalab/core-components-stack-context': ^1.0.0
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-popup-sheet@2.0.4':
-    resolution: {integrity: sha512-sXxtC86j8QB3YAolV/D2kjt2QfrNiMcnOCXRcf9xQ70+c3wo3pWVWUmqUQdRsDnQybqloJO5NR5m7pW0o4VKwQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-portal@4.0.1':
-    resolution: {integrity: sha512-Xosb8cp3NbqrasoCuReCI0wPapfAEe4Deh8NuZr3WuW8a4pLJS3LiGLNKKRdaOEnTluaFkL2ni7Pad2/X9PYMQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-product-cover@2.0.2':
-    resolution: {integrity: sha512-Ah+aaeOAIptutTAwcSSB4+8EnT9IcjtUpBah6ktN6OgbTvqgakq3IDksL+z9FFP48qbb7y7altcopfQALZEfgw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-progress-bar@4.0.0':
-    resolution: {integrity: sha512-57uULg8/9BTplEM/oySjlnrJlt4TH8EHl+1r88+ZYLZSoyaZ0VCg6dFh8YpRZ9APPneGSzb/LyC+eWqrJy4e/A==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-pure-cell@5.0.2':
-    resolution: {integrity: sha512-1AgJdV2a9GlyuYd8J5pz3Xz2zwU1iono1OFVg6pm9ifG8xk56q0LVlrg38JyGRmRIzVFlUvZIhQ6YxLljLIICQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-radio-group@5.2.0':
-    resolution: {integrity: sha512-pooEsn3qWj3Y0/ivZwSLS4kmtwmy3o2Y5td9POR2hGA1Hz3fsfdBbBq/EiyD2JlMAZPvloT8Unelz52ehOCM6Q==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-radio@5.0.1':
-    resolution: {integrity: sha512-kBKbQMGO/CzPonU+zk6XtIeKvBmd0PqcCtpGZgsbiow6EAx9YCZeM5E8VXwAUox2pe64+bZAFpnnfFrI9yxGFg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-scrollbar@4.0.0':
-    resolution: {integrity: sha512-S+/Z7B/lJBU+47vpyYQ91vhYvowqf5T7PcRCTvNjuWzwzv1IPtPmw2RsN2iDdDiCxpUO/rJHQHUqZ/4RRciBFA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-segmented-control@2.0.0':
-    resolution: {integrity: sha512-Kt1tkx8oP3686B5p6zJi76SjTzSc6fhNAZCE+oIz9YGRtWkmXAoXLoYytJCEEeUWn5QsjafHEM1iZyxVNu8eTA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-select-with-tags@9.0.3':
-    resolution: {integrity: sha512-GiEQx6j8XwMCHPUJ9BqaWsKMZIezHo0/Qj24ruy3wEIRf4/cTox2YUUOB5vMo9odXk6kKeqPzQNCsx+ayPuHJQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-select@18.2.0':
-    resolution: {integrity: sha512-SHpWuORUHYdSZ5Vg5KIUuv1AewZxG1PK5Gj87S0ivXIe1+smwuN1vtk1vCiHUidLYwDxdQgjRk/dPldfbriL6A==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-shared@1.1.0':
-    resolution: {integrity: sha512-BeusZ+v0klopaMa9E3+XDDsTtkUhZ6U/5QMHmd3HrHig2+4FpwMwxEd1sHiAWG7DBWFUI7KTmwN1mJgQuvOjVQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-side-panel@6.0.2':
-    resolution: {integrity: sha512-shAHtMT8nj1FEGruiQuTH0TG1t1+EYHp3DkZCr81F7tdCmF7qqKmsCAcZ+B/Af0gUNFSn5smBEhapnWVEwleEA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-skeleton@6.0.1':
-    resolution: {integrity: sha512-Lkuz6Y9Pog09nf4pxVBNsSYrGfHIBejv5kwGQa35QUWsc7BgKog8QgsEuM5Xd/Xz31ZIgQj/kYLwC7LZdeEdZg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-slider-input@10.0.4':
-    resolution: {integrity: sha512-IF3BpoHBSKILHKlyXLpTFLkNDITfpblF2KITjMo4vk7LHvG60J1bzLBZ3YTjsBPHyUQw/F3MF03ZAqHD2Yme/Q==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-slider@5.0.0':
-    resolution: {integrity: sha512-b/w7TBwzyc6ppV+OdKTkLruND3kCYf7K7tC62QjYaNWeBoj1/QfVm7I/o0IllP4C9ym96VMfzmB2rEe6WcK3vA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-sortable-list@2.0.1':
-    resolution: {integrity: sha512-QXRClppa25EsW3Ojejx7ev1EpGZk9AYlj0cytbpTh45qIHnzEcoMULvNMvGgh4IKLbNpjxDgc0+EzgoDH50+Fg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-space@4.1.0':
-    resolution: {integrity: sha512-hsggKrhSUtn1gdrDpe8i3CGsIqr7TqG2wRKmCKYjz7kmzETWVLZ41oM0hUxAyMfz766K3OByxKKNxIAfctAOsw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-spinner@5.0.1':
-    resolution: {integrity: sha512-oZ4eMy6de4oyV2OsulQRv/ZqdpvTLzbPE0sRRe7zw1IGeNG/kHTw0AMeBoxwkbnpKTCy0dt+VhXPRcoyAq6Tvg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-stack-context@1.0.0':
-    resolution: {integrity: sha512-jdT5IWkbjNwOoRdsLRyuOckR+0blFKe3e0atxN8P9lr+DB4Z2QQE77e/CNA+yTWbQXw013TurRk3cU/z2dZlwA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-stack@6.0.0':
-    resolution: {integrity: sha512-DmFyxaDWHQJyH3hnybhwbrw2Bo31DSIRjsARsU4HpDUmOkPCYUTmYk1TbXZyZyoul+ziX4c98ACtQDwdU48/Tw==}
-    peerDependencies:
-      '@alfalab/core-components-stack-context': ^1.0.0
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-status-badge@2.0.1':
-    resolution: {integrity: sha512-oItt7dal5xBLoBVdC4JzUVPUFjnKdQ4Uxv7iqVi8aV8DSD2ngIaLQfoXP4w+r3IOo2t6RHUDmwqGZYSicLUWcA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-status@4.0.0':
-    resolution: {integrity: sha512-5aiAw+oHwMEmqaQgjBKq78vJwRNX7F+fO0RhbdU2O0peROIQDHPGMQ1fBowc0MrJI3ZJwFy/j3AiXA1fS1FQbw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-stepped-progress-bar@3.0.2':
-    resolution: {integrity: sha512-tDm0QOc1V0UZS2eqL4dYuZw4+fBg0PSkgRTbtJDv3qgF4FgsMrdDx95sCbHRnJcUbSbO49hdha9fAspG5B1Z5g==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-steps@2.0.1':
-    resolution: {integrity: sha512-MBNAuSft57X4DwlJ4dAEQ8gK+RI6skFtCd+mKXm/0VAOk3ouhFXN5Qij6D0yMpd+7ME9eEKDvNpH5qdrDBVIbg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-switch@5.0.1':
-    resolution: {integrity: sha512-LBoI95gR6+FLIfRzSmQDtHggqTUiDQgsBPJLjvYLM3yWnqrGWvGWf77wHmNjAMfN2/os0u+7Ra0TgMBOqYZlJg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-system-message@3.0.1':
-    resolution: {integrity: sha512-yDMO/vu8Yi5X3SrAjQX95Yd169KPZti5Ctpu3nP2AWRYti6spYiKGB15YmK6OjjvKNW3S5x7624H9436TZbAdg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-tab-bar@3.0.2':
-    resolution: {integrity: sha512-mbmASJtrVObwn5bwSVzADyenmqtDYlQ0hz/I6ke3QnvQUqarKiwuYWL/6QnILKfYQ1nk9gk/DoRPZpRsSOFJ7g==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-table@3.0.3':
-    resolution: {integrity: sha512-ryZ03wv/KMcu0GFi+hJY3FARoTdwMwG2NTFIMsPRTVejzgczxRFJH/mKsvxrDiZMZRFh2vvFbqZIJS/0owNJ2Q==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-tabs@9.2.0':
-    resolution: {integrity: sha512-/srxu6oDeXO7dq7yKa7CTEWX/UkTM4/hF4RgfqEGaUzf2KSLL+ceXhT0/uO5/TWoLYrg0qaI/LxXj2i93vhpRg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-tag@9.0.1':
-    resolution: {integrity: sha512-IMuGt5g6MpL7BNt1GcCplN9ElMrZZh/Cgjl363QetRzmpMyD8v9fW1Ag4x9sMdhad9/AD1pIoVbrdHaZq7cgFA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-text@2.0.0':
-    resolution: {integrity: sha512-bTRt7ojcQCve6NEbRnMTQ85Lt/KFUsM7U0VjYZV9sFo7OqEo1kWazS8sPpYdH3ViKXFj1NzPOBaKtJzikcxbQQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-textarea@9.0.1':
-    resolution: {integrity: sha512-0sDPAMQWAbUgZliGRvcxSV7qDwR0iaU3EnCEtYlXoMbCgNWvLVWTJgCFvVLnNpGKUCmvwZqLgOMyjEm3K66cHw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-themes@14.1.2':
-    resolution: {integrity: sha512-eC6TDmVkgj8zDgzU+/BX35Mzm73id2dHcYXpLT7a5hX9H+/zbgdxjj8ACGMFfW16nE26V9Hw/HsHy2kaDlIoag==}
-
-  '@alfalab/core-components-time-input@3.0.2':
-    resolution: {integrity: sha512-Y1lj/UCOfBJGABHPgkIdJEm21R38rXs529tFFscseigAbvhvSYOl0ZiC5p6ZPZ/SDVmIQqEftEy3y2+s2XcDBg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-toast-plate@8.0.1':
-    resolution: {integrity: sha512-G/lWhYLXL3ylfPUQSufqIQ7vfEymweKJGBVG9bmAAa3KQfSdmq/YT+pjYdtz4c8+cGzfHHxeBWhIFfDGHpAVRA==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-toast@7.0.1':
-    resolution: {integrity: sha512-/W86DAxOZHrnL88o7leJhvID/ZouP9XOIYh2lZiHgiCgpTs+rM6HGqRWC3bRjGECYMVFYQB3BqcO68pMT2YrVw==}
-    peerDependencies:
-      '@alfalab/core-components-stack-context': ^1.0.0
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-tooltip@8.0.3':
-    resolution: {integrity: sha512-gE0N4xTvNT4gg9+Ld1gBHm4HBVP07eC6RiiGnekMOGkx17dJ6iTFkk/dxcNmfGs3ehnLWOXYwSmzkMV6Kxe4gw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-types@1.0.0':
-    resolution: {integrity: sha512-/f8l7YKYa5p9BX/uOx3AmpZJ/zzMbgQlaHR2L0P1BJxeqZ8ROfFNV7jNPFdCg2vIt8wDqbUhqdyfHhWCB8Hliw==}
-
-  '@alfalab/core-components-typography@5.0.2':
-    resolution: {integrity: sha512-RXvCeRUicYE7hfM0LmQexwKh9N7mi1ABYsZvdpcFc0fWscT3BWlbWNZCXoPXpQwKhjF64t+VutNILSoC1/6v7Q==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-underlay@2.0.0':
-    resolution: {integrity: sha512-q3V8LsNPHe2DJqw635VDd33OIzQ0aFAyJvxdqeZ9ajlxjrH4qPoMsrA4l/pZyoIEk63CUsvIDZEYiQYbnpS7mQ==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-universal-date-input@3.0.3':
-    resolution: {integrity: sha512-y4XR8HGuedzhlYC2+wE8WOJseruNmX6WE63tfO/+yKSabwQPqyyiqiOQES/Py43Exxbc4CxLbIB0etFcLdieXw==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-universal-modal@2.0.4':
-    resolution: {integrity: sha512-4iONPlrbB1driDrcY/jV4P+Fq5XoLFo3C2zvr1ufV2m5LKc3gWLyV2dPm2hWDIJToqhsVZ/d55jJH1TljAuNhg==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components-vars@10.1.0':
-    resolution: {integrity: sha512-C4+LuVlJGdy7knpAshm01X/9BJOjBZGQV7TWaun1vFdhXtH6bM7Y/dvimm83JtrK1HqUmrpjClwf33NjTz9M5g==}
-
-  '@alfalab/core-components-with-suffix@5.0.2':
-    resolution: {integrity: sha512-Vwx7pFiQe7fTngCBv0zXYTInpOYfOysSjbRev9B2WAb4bl1Lh3oUlq9wq8YX4HFli0sRmJtQefJqh5mHrpd62Q==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
-
-  '@alfalab/core-components@49.7.0':
-    resolution: {integrity: sha512-25DdfJFtDeB5sxaFIYzk8FiX/2lccFsUKMjg5J3FB4EGOjtkO2c7QyLAYC0jQ8gRS3tjz0x6yNR7yk4YeHMgaA==}
-    peerDependencies:
-      '@alfalab/core-components-config': ^1.0.0
-      '@alfalab/core-components-stack-context': ^1.0.0
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0
+  '@alfalab/core-components@47.26.8':
+    resolution: {integrity: sha512-J6tHvpTZcZPKcvg3Xs4LedRhkPX1IR2PoLHfiOFTqQtKnpgBCZUi1gF35OpmtAfGnz+lGTI68RrwkP4DxwnqYg==}
+    deprecated: Package is deprecated. Use >=48.15.1
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
 
   '@alfalab/data@1.9.2':
     resolution: {integrity: sha512-43KMYYerK5HS2MgaCRNU2Q3kaYskG1UmZDckmFmiM9dTbiyGN+7YQ1ZyEOsLrbXm6SxkHg65Gf8tYVKnSiLYwQ==}
@@ -824,12 +90,6 @@ packages:
       react: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
       react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
 
-  '@alfalab/icons-logo@1.53.0':
-    resolution: {integrity: sha512-Iq6KdyLxOD2a8iK7rgmaVs+ilVIxiQ0b2HDx2uLzneCxPnuannYzak55jne5212h0abBqiFV5XZgnI6PBWGMow==}
-    peerDependencies:
-      react: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
-      react-dom: ^16.9.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
-
   '@alfalab/icons-logotype@2.37.0':
     resolution: {integrity: sha512-clx5P0dbifjHh78cXzm999i27Pn+qgh7yTHxKbG4pGTTlpRkFUdg6SIpPSPueR/J8fYOpvdsr/rG03n7oGqNPQ==}
     peerDependencies:
@@ -841,6 +101,9 @@ packages:
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
+
+  '@alfalab/stack-context@1.16.0':
+    resolution: {integrity: sha512-8XiqNU7WaHKK6HvlBr0TNj3WYoe8neC5s7FWCQkYjv8ybeQZ8q68EQvICW3GnfVNG3L/rhFbm6QtV2UObYfYzw==}
 
   '@alfalab/utils@1.18.1':
     resolution: {integrity: sha512-R2D96p9Iu8mC5zUok5fjyfCKEErLiVQMo8kfUYo6voBj14aCni7P3M0a8y0kSxLG5tenivyIrv1KF2ibSP/QlQ==}
@@ -1303,25 +566,10 @@ packages:
   '@maskito/core@1.9.0':
     resolution: {integrity: sha512-WQIUrwkdIUg6PzAb4Apa0RjTPHB0EqZLc9/7kWCKVIixhkITRFXFg2BhiDVSRv0mIKVlAEJcOvvjHK5T3UaIig==}
 
-  '@maskito/core@3.11.1':
-    resolution: {integrity: sha512-zN5k/BiZXblo8mEFhsGnnXBCqKMkjEGArorOOcpB1/ymZyqF12Dk6IipEsSE6abMnWw4YF2tukzfq73BFZKz8A==}
-
-  '@maskito/kit@3.11.1':
-    resolution: {integrity: sha512-KOBUqxRz383xJWCoe+Emwxv2oAzUrZobIN+Gntmi5Py2S10XbqYnGX/6W7QHN8CUK2Nx11d3HsxbEQaq5Hinjg==}
-    peerDependencies:
-      '@maskito/core': ^3.11.1
-
   '@maskito/react@1.9.0':
     resolution: {integrity: sha512-6mjdXyaJDcZH1VnIYiR0kTA//F0q2djs0fKxfMfqEhEzyRR/HXL0VvsPRayk3HHy7wEtwR7bKgTNBwlwFdTj0g==}
     peerDependencies:
       '@maskito/core': ^1.9.0
-      react: '>=16.8'
-      react-dom: '>=16.8'
-
-  '@maskito/react@3.11.1':
-    resolution: {integrity: sha512-Euqlm2mafBs1h9SPME0UEm8S/7CY1WwGusZSLScQoHx1dNCU+XVZl9cTDhnNI2/Ly+CnmcG/plgsGoeprabBHQ==}
-    peerDependencies:
-      '@maskito/core': ^3.11.1
       react: '>=16.8'
       react-dom: '>=16.8'
 
@@ -1525,6 +773,9 @@ packages:
   '@types/d3-timer@3.0.2':
     resolution: {integrity: sha512-Ps3T8E8dZDam6fUyNiMkekK3XUsaUEik+idO9/YjPtfj2qruF8tFBXS7XhtE4iIXBLxhmLjP3SXpLhVf21I9Lw==}
 
+  '@types/deep-equal@1.0.4':
+    resolution: {integrity: sha512-tqdiS4otQP4KmY0PR3u6KbZ5EWvhNdUoS/jc93UuK23C220lOZ/9TvjfxdPcKvqwwDVtmtSCrnr0p/2dirAxkA==}
+
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
@@ -1632,6 +883,15 @@ packages:
     peerDependencies:
       vite: ^4.0.3 || ^5.0.0
 
+  '@virtuoso.dev/react-urx@0.2.13':
+    resolution: {integrity: sha512-MY0ugBDjFb5Xt8v2HY7MKcRGqw/3gTpMlLXId2EwQvYJoC8sP7nnXjAxcBtTB50KTZhO0SbzsFimaZ7pSdApwA==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: '>=16'
+
+  '@virtuoso.dev/urx@0.2.13':
+    resolution: {integrity: sha512-iirJNv92A1ZWxoOHHDYW/1KPoi83939o83iUBQHIim0i3tMeSKEh+bxhJdTHQ86Mr4uXx9xGUTq69cp52ZP8Xw==}
+
   '@vitejs/plugin-react-swc@3.7.0':
     resolution: {integrity: sha512-yrknSb3Dci6svCd/qhHqhFPDSw0QtjumcqdKMoNNzmOl5lMXTTiqzjWtG4Qask2HdvvzaNgSunbQGet8/GrKdA==}
     peerDependencies:
@@ -1665,9 +925,17 @@ packages:
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
+  array-buffer-byte-length@1.0.2:
+    resolution: {integrity: sha512-LHE+8BuR7RYGDKvnrmcuSq3tDcKv9OFEXQt/HpbZhY7V6h0zlUXutnAD82GiFx9rdieCMjkvtcsPqBwgUl1Iiw==}
+    engines: {node: '>= 0.4'}
+
   array-union@2.1.0:
     resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
     engines: {node: '>=8'}
+
+  available-typed-arrays@1.0.7:
+    resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
+    engines: {node: '>= 0.4'}
 
   bail@1.0.5:
     resolution: {integrity: sha512-xFbRxM1tahm08yHBP16MMjVUAvDaBMD38zsM9EMAUN61omwLmKlOpB/Zku5QkjZ8TZ4vn53pj+t518cH0S03RQ==}
@@ -1693,6 +961,18 @@ packages:
   cac@6.7.14:
     resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
     engines: {node: '>=8'}
+
+  call-bind-apply-helpers@1.0.2:
+    resolution: {integrity: sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==}
+    engines: {node: '>= 0.4'}
+
+  call-bind@1.0.8:
+    resolution: {integrity: sha512-oKlSFMcMwpUg2ednkhQ454wfWiU/ul3CkJe/PEHcTKuiX6RpbehUiFMXu13HalGZxfUwCQzZG747YXBn1im9ww==}
+    engines: {node: '>= 0.4'}
+
+  call-bound@1.0.4:
+    resolution: {integrity: sha512-+ys997U96po4Kx/ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU/tyMTlRpaSejg==}
+    engines: {node: '>= 0.4'}
 
   callsites@3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
@@ -1843,6 +1123,10 @@ packages:
       babel-plugin-macros:
         optional: true
 
+  deep-equal@2.2.3:
+    resolution: {integrity: sha512-ZIwpnevOurS8bpT4192sqAowWM76JDKSHYzMLty3BZGSswgq6pBaH3DhCSW5xVAZICZyKdOBPjwww5wfgT/6PA==}
+    engines: {node: '>= 0.4'}
+
   deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
 
@@ -1853,8 +1137,13 @@ packages:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
 
-  detect-browser@5.3.0:
-    resolution: {integrity: sha512-53rsFbGdwMwlF7qvCt0ypLM5V5/Mbl0szB7GPN8y9NCcbknYOeVVXdrXEq+90IwAfrrzt6Hd+u2E2ntakICU8w==}
+  define-data-property@1.1.4:
+    resolution: {integrity: sha512-rBMvIzlpA8v6E+SJZoo++HAYqsLrkg7MSfIinMPFhmkorw7X+dOXVJQs+QT69zGkzMyfDnIMN2Wid1+NbL3T+A==}
+    engines: {node: '>= 0.4'}
+
+  define-properties@1.2.1:
+    resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
+    engines: {node: '>= 0.4'}
 
   detect-node-es@1.1.0:
     resolution: {integrity: sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==}
@@ -1874,12 +1163,31 @@ packages:
     peerDependencies:
       react: '>=16.12.0'
 
+  dunder-proto@1.0.1:
+    resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
+    engines: {node: '>= 0.4'}
+
   electron-to-chromium@1.5.24:
     resolution: {integrity: sha512-0x0wLCmpdKFCi9ulhvYZebgcPmHTkFVUfU2wzDykadkslKwT4oAmDTHEKLnlrDsMGZe4B+ksn8quZfZjYsBetA==}
 
   element-closest@3.0.2:
     resolution: {integrity: sha512-JxKQiJKX0Zr5Q2/bCaTx8P+UbfyMET1OQd61qu5xQFeWr1km3fGaxelSJtnfT27XQ5Uoztn2yIyeamAc/VX13g==}
     engines: {node: '>=0.12.0'}
+
+  es-define-property@1.0.1:
+    resolution: {integrity: sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==}
+    engines: {node: '>= 0.4'}
+
+  es-errors@1.3.0:
+    resolution: {integrity: sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==}
+    engines: {node: '>= 0.4'}
+
+  es-get-iterator@1.1.3:
+    resolution: {integrity: sha512-sPZmqHBe6JIiTfN5q2pEi//TwxmAFHwj/XEuYjTuse78i8KxaqMTTzxPoFKuzRpDpTJ+0NAbpfenkmH2rePtuw==}
+
+  es-object-atoms@1.1.1:
+    resolution: {integrity: sha512-FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73jTaldXA==}
+    engines: {node: '>= 0.4'}
 
   esbuild@0.21.5:
     resolution: {integrity: sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==}
@@ -2009,14 +1317,32 @@ packages:
     resolution: {integrity: sha512-QFaHbhv9WPUeLYBDe/PAuLKJ4Dd9OPvKs9xZBr3yLXnUrDNaVXKu2baDBXe3naPY30hgHYSsf2JW4jzas2mDEQ==}
     engines: {node: '>=10'}
 
+  for-each@0.3.5:
+    resolution: {integrity: sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==}
+    engines: {node: '>= 0.4'}
+
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
+  function-bind@1.1.2:
+    resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
+
+  functions-have-names@1.2.3:
+    resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
+
   gensync@1.0.0-beta.2:
     resolution: {integrity: sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==}
     engines: {node: '>=6.9.0'}
+
+  get-intrinsic@1.3.0:
+    resolution: {integrity: sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==}
+    engines: {node: '>= 0.4'}
+
+  get-proto@1.0.1:
+    resolution: {integrity: sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g==}
+    engines: {node: '>= 0.4'}
 
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
@@ -2038,8 +1364,16 @@ packages:
     resolution: {integrity: sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==}
     engines: {node: '>=10'}
 
+  gopd@1.2.0:
+    resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
+    engines: {node: '>= 0.4'}
+
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
+
+  has-bigints@1.1.0:
+    resolution: {integrity: sha512-R3pbpkcIqv2Pm3dUwgjclDRVmWpTJW2DcMzcIhEXEx1oh/CEMObMm3KLmRJOdvhM7o4uQBnwr8pzRK2sJWIqfg==}
+    engines: {node: '>= 0.4'}
 
   has-flag@3.0.0:
     resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
@@ -2048,6 +1382,21 @@ packages:
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
+
+  has-property-descriptors@1.0.2:
+    resolution: {integrity: sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==}
+
+  has-symbols@1.1.0:
+    resolution: {integrity: sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ==}
+    engines: {node: '>= 0.4'}
+
+  has-tostringtag@1.0.2:
+    resolution: {integrity: sha512-NqADB8VjPFLM2V0VvHUewwwsw0ZWBaIdgo+ieHtK3hasLz4qeCRjYcqfB6AQrBggRKppKF8L52/VqdVsO47Dlw==}
+    engines: {node: '>= 0.4'}
+
+  hasown@2.0.2:
+    resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
+    engines: {node: '>= 0.4'}
 
   hls.js@1.6.14:
     resolution: {integrity: sha512-CSpT2aXsv71HST8C5ETeVo+6YybqCpHBiYrCRQSn3U5QUZuLTSsvtq/bj+zuvjLVADeKxoebzo16OkH8m1+65Q==}
@@ -2067,6 +1416,10 @@ packages:
   inline-style-parser@0.1.1:
     resolution: {integrity: sha512-7NXolsK4CAS5+xvdj5OMMbI962hU/wvwoxk+LWR9Ek9bVtyuuYScDN6eS0rUm6TxApFpw7CX1o4uJzcd4AyD3Q==}
 
+  internal-slot@1.1.0:
+    resolution: {integrity: sha512-4gd7VpWNQNB4UKKCFFVcp1AVv+FMOgs9NKzjHKusc8jTMhd5eL1NqQqOpE0KzMds804/yHlglp3uxgluOqAPLw==}
+    engines: {node: '>= 0.4'}
+
   internmap@2.0.3:
     resolution: {integrity: sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==}
     engines: {node: '>=12'}
@@ -2081,9 +1434,33 @@ packages:
   is-alphanumerical@1.0.4:
     resolution: {integrity: sha512-UzoZUr+XfVz3t3v4KyGEniVL9BDRoQtY7tOyrRybkVNjDFWyo1yhXNGrrBTQxp3ib9BLAWs7k2YKBQsFRkZG9A==}
 
+  is-arguments@1.2.0:
+    resolution: {integrity: sha512-7bVbi0huj/wrIAOzb8U1aszg9kdi3KN/CyU19CTI7tAoZYEZoL9yCDXpbXN+uPsuWnP02cyug1gleqq+TU+YCA==}
+    engines: {node: '>= 0.4'}
+
+  is-array-buffer@3.0.5:
+    resolution: {integrity: sha512-DDfANUiiG2wC1qawP66qlTugJeL5HyzMpfr8lLK+jMQirGzNod0B12cFB/9q838Ru27sBwfw78/rdoU7RERz6A==}
+    engines: {node: '>= 0.4'}
+
+  is-bigint@1.1.0:
+    resolution: {integrity: sha512-n4ZT37wG78iz03xPRKJrHTdZbe3IicyucEtdRsV5yglwc3GyUfbAfpSeD0FJ41NbUNSt5wbhqfp1fS+BgnvDFQ==}
+    engines: {node: '>= 0.4'}
+
+  is-boolean-object@1.2.2:
+    resolution: {integrity: sha512-wa56o2/ElJMYqjCjGkXri7it5FbebW5usLw/nPmCMs5DeZ7eziSYZhSmPRn0txqeW4LnAmQQU7FgqLpsEFKM4A==}
+    engines: {node: '>= 0.4'}
+
   is-buffer@2.0.5:
     resolution: {integrity: sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==}
     engines: {node: '>=4'}
+
+  is-callable@1.2.7:
+    resolution: {integrity: sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==}
+    engines: {node: '>= 0.4'}
+
+  is-date-object@1.1.0:
+    resolution: {integrity: sha512-PwwhEakHVKTdRNVOw+/Gyh0+MzlCl4R6qKvkhuvLtPMggI1WAHt9sOwZxQLSGpUaDnrdyDsomoRgNnCfKNSXXg==}
+    engines: {node: '>= 0.4'}
 
   is-decimal@1.0.4:
     resolution: {integrity: sha512-RGdriMmQQvZ2aqaQq3awNA6dCGtKpiDFcOzrTWrDAT2MiWrKQVPmxLGHl7Y2nNu6led0kEyoX0enY0qXYsv9zw==}
@@ -2099,6 +1476,14 @@ packages:
   is-hexadecimal@1.0.4:
     resolution: {integrity: sha512-gyPJuv83bHMpocVYoqof5VDiZveEoGoFL8m3BXNb2VW8Xs+rz9kqO8LOQ5DH6EsuvilT1ApazU0pyl+ytbPtlw==}
 
+  is-map@2.0.3:
+    resolution: {integrity: sha512-1Qed0/Hr2m+YqxnM09CjA2d/i6YZNfF6R2oRAOj36eUdS6qIV/huPJNSEpKbupewFs+ZsJlxsjjPbc0/afW6Lw==}
+    engines: {node: '>= 0.4'}
+
+  is-number-object@1.1.1:
+    resolution: {integrity: sha512-lZhclumE1G6VYD8VHe35wFaIif+CTy5SJIi5+3y4psDgWu4wPDoBhF8NxUOinEc7pHgiTsT6MaBb92rKhhD+Xw==}
+    engines: {node: '>= 0.4'}
+
   is-number@7.0.0:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
@@ -2110,6 +1495,37 @@ packages:
   is-plain-obj@2.1.0:
     resolution: {integrity: sha512-YWnfyRwxL/+SsrWYfOpUtz5b3YD+nyfkHvjbcanzk8zgyO4ASD67uVMRt8k5bM4lLMDnXfriRhOpemw+NfT1eA==}
     engines: {node: '>=8'}
+
+  is-regex@1.2.1:
+    resolution: {integrity: sha512-MjYsKHO5O7mCsmRGxWcLWheFqN9DJ/2TmngvjKXihe6efViPqc274+Fx/4fYj/r03+ESvBdTXK0V6tA3rgez1g==}
+    engines: {node: '>= 0.4'}
+
+  is-set@2.0.3:
+    resolution: {integrity: sha512-iPAjerrse27/ygGLxw+EBR9agv9Y6uLeYVJMu+QNCoouJ1/1ri0mGrcWpfCqFZuzzx3WjtwxG098X+n4OuRkPg==}
+    engines: {node: '>= 0.4'}
+
+  is-shared-array-buffer@1.0.4:
+    resolution: {integrity: sha512-ISWac8drv4ZGfwKl5slpHG9OwPNty4jOWPRIhBpxOoD+hqITiwuipOQ2bNthAzwA3B4fIjO4Nln74N0S9byq8A==}
+    engines: {node: '>= 0.4'}
+
+  is-string@1.1.1:
+    resolution: {integrity: sha512-BtEeSsoaQjlSPBemMQIrY1MY0uM6vnS1g5fmufYOtnxLGUZM2178PKbhsk7Ffv58IX+ZtcvoGwccYsh0PglkAA==}
+    engines: {node: '>= 0.4'}
+
+  is-symbol@1.1.1:
+    resolution: {integrity: sha512-9gGx6GTtCQM73BgmHQXfDmLtfjjTUDSyoxTCbp5WtoixAhfgsDirWIcVQ/IHpvI5Vgd5i/J5F7B9cN/WlVbC/w==}
+    engines: {node: '>= 0.4'}
+
+  is-weakmap@2.0.2:
+    resolution: {integrity: sha512-K5pXYOm9wqY1RgjpL3YTkF39tni1XajUIkawTLUo9EZEVUFga5gSQJF8nNS7ZwJQ02y+1YCNYcMh+HIf1ZqE+w==}
+    engines: {node: '>= 0.4'}
+
+  is-weakset@2.0.4:
+    resolution: {integrity: sha512-mfcwb6IzQyOKTs84CQMrOwW4gQcaTOAWJ0zzJCl2WSPDrWk/OzDaImWFH3djXhb24g4eudZfLRozAvPGw4d9hQ==}
+    engines: {node: '>= 0.4'}
+
+  isarray@2.0.5:
+    resolution: {integrity: sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==}
 
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
@@ -2185,6 +1601,10 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
+  math-intrinsics@1.1.0:
+    resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
+    engines: {node: '>= 0.4'}
+
   mdast-util-definitions@4.0.0:
     resolution: {integrity: sha512-k8AJ6aNnUkB7IE+5azR9h81O5EQ/cTDXtWdMq9Kk5KcEW/8ritU5CeLg/9HhOC++nALHBlaogJ5jz0Ybk3kPMQ==}
 
@@ -2257,6 +1677,22 @@ packages:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
 
+  object-inspect@1.13.4:
+    resolution: {integrity: sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysTV2Epbew==}
+    engines: {node: '>= 0.4'}
+
+  object-is@1.1.6:
+    resolution: {integrity: sha512-F8cZ+KfGlSGi09lJT7/Nd6KJZ9ygtvYC0/UYYLI9nmQKLMnydpB9yvbv9K1uSkEu7FU9vYPmVwLg328tX+ot3Q==}
+    engines: {node: '>= 0.4'}
+
+  object-keys@1.1.1:
+    resolution: {integrity: sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==}
+    engines: {node: '>= 0.4'}
+
+  object.assign@4.1.7:
+    resolution: {integrity: sha512-nK28WOo+QIjBkDduTINE4JkF/UJJKyf2EJxvJKfblDpyg0Q+pkOHNTL0Qwy6NP6FhE/EnzV73BxxqcJaXY9anw==}
+    engines: {node: '>= 0.4'}
+
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
     engines: {node: '>= 0.8.0'}
@@ -2306,6 +1742,10 @@ packages:
     deprecated: 'We recommend switching to Floating UI which supports this modifier out of the box: https://floating-ui.com/docs/size'
     peerDependencies:
       '@popperjs/core': ^2.2.0
+
+  possible-typed-array-names@1.1.0:
+    resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==}
+    engines: {node: '>= 0.4'}
 
   postcss@8.4.47:
     resolution: {integrity: sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==}
@@ -2424,11 +1864,12 @@ packages:
     peerDependencies:
       react: ^16.6.3 || ^17.0.0
 
-  react-virtuoso@4.14.1:
-    resolution: {integrity: sha512-NRUF1ak8lY+Tvc6WN9cce59gU+lilzVtOozP+pm9J7iHshLGGjsiAB4rB2qlBPHjFbcXOQpT+7womNHGDUql8w==}
+  react-virtuoso@2.19.1:
+    resolution: {integrity: sha512-zF6MAwujNGy2nJWCx/Df92ay/RnV2Kj4glUZfdyadI4suAn0kAZHB1BeI7yPFVp2iSccLzFlszhakWyr+fJ4Dw==}
+    engines: {node: '>=10'}
     peerDependencies:
-      react: '>=16 || >=17 || >= 18 || >= 19'
-      react-dom: '>=16 || >=17 || >= 18 || >=19'
+      react: '>=16 || >=17 || >= 18'
+      react-dom: '>=16 || >=17 || >= 18'
 
   react@18.3.1:
     resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
@@ -2446,6 +1887,10 @@ packages:
 
   regenerator-runtime@0.14.1:
     resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
+
+  regexp.prototype.flags@1.5.4:
+    resolution: {integrity: sha512-dYqgNSZbDwkaJ2ceRd9ojCGjBq+mOm9LmtXnAnEGyHhN/5R7iDW2TRw3h+o/jCFxus3P2LfWIIiwowAjANm7IA==}
+    engines: {node: '>= 0.4'}
 
   remark-parse@9.0.0:
     resolution: {integrity: sha512-geKatMwSzEXKHuzBNU1z676sGcDcFoChMK38TgdHJNAYfFtsfHDQG7MoJAjs6sgYMqyLduCYWDIWZIxiPeafEw==}
@@ -2476,6 +1921,10 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
+  safe-regex-test@1.1.0:
+    resolution: {integrity: sha512-x/+Cz4YrimQxQccJf5mKEbIa1NzeCRNI5Ecl/ekmlYaampdNLPalVyIcCZNNH3MvmqBugV5TMYZXv0ljslUlaw==}
+    engines: {node: '>= 0.4'}
+
   scheduler@0.23.2:
     resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
 
@@ -2488,6 +1937,14 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  set-function-length@1.2.2:
+    resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
+    engines: {node: '>= 0.4'}
+
+  set-function-name@2.0.2:
+    resolution: {integrity: sha512-7PGFlmtwsEADb0WYyvCMa1t+yke6daIG4Wirafur5kcf+MhUnPms1UeR0CKQdTZD81yESwMHbtn+TR+dMviakQ==}
+    engines: {node: '>= 0.4'}
+
   shebang-command@2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
     engines: {node: '>=8'}
@@ -2495,6 +1952,22 @@ packages:
   shebang-regex@3.0.0:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
+
+  side-channel-list@1.0.0:
+    resolution: {integrity: sha512-FCLHtRD/gnpCiCHEiJLOwdmFP+wzCmDEkc9y7NsYxeF4u7Btsn1ZuwgwJGxImImHicJArLP4R0yX4c2KCrMrTA==}
+    engines: {node: '>= 0.4'}
+
+  side-channel-map@1.0.1:
+    resolution: {integrity: sha512-VCjCNfgMsby3tTdo02nbjtM/ewra6jPHmpThenkTYh8pG9ucZ/1P8So4u4FGBek/BjpOVsDCMoLA/iuBKIFXRA==}
+    engines: {node: '>= 0.4'}
+
+  side-channel-weakmap@1.0.2:
+    resolution: {integrity: sha512-WPS/HvHQTYnHisLo9McqBHOJk2FkHO/tlpvldyrnem4aeQp4hai3gythswg6p01oSoTl58rcpiFAjF2br2Ak2A==}
+    engines: {node: '>= 0.4'}
+
+  side-channel@1.1.0:
+    resolution: {integrity: sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw==}
+    engines: {node: '>= 0.4'}
 
   simplebar@5.3.9:
     resolution: {integrity: sha512-1vIIpjDvY9sVH14e0LGeiCiTFU3ILqAghzO6OI9axeG+mvU/vMSrvXeAXkBolqFFz3XYaY8n5ahH9MeP3sp2Ag==}
@@ -2512,6 +1985,10 @@ packages:
 
   ssr-window@3.0.0:
     resolution: {integrity: sha512-q+8UfWDg9Itrg0yWK7oe5p/XRCJpJF9OBtXfOPgSJl+u3Xd5KI328RUEvUqSMVM9CiQUEf1QdBzJMkYGErj9QA==}
+
+  stop-iteration-iterator@1.1.0:
+    resolution: {integrity: sha512-eLoXW/DHyl62zxY4SCaIgnRhuMr6ri4juEYARS8E6sCEqzKpOiE521Ucofdx+KnDZl5xmvGYaaKCk5FEOxJCoQ==}
+    engines: {node: '>= 0.4'}
 
   strip-ansi@6.0.1:
     resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
@@ -2580,6 +2057,9 @@ packages:
 
   ufo@1.5.4:
     resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
+
+  ui-primitives@20.44.0:
+    resolution: {integrity: sha512-0mWyVFj3qLhOVYIbNIPikr01lWZauH6wbRPxEngvUDEwV4GUXKN7YiHm0ltQodFUJlGPggw3yY2jiG5qI3f0kA==}
 
   undici-types@6.19.8:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
@@ -2660,11 +2140,6 @@ packages:
       '@types/react':
         optional: true
 
-  use-sync-external-store@1.6.0:
-    resolution: {integrity: sha512-Pp6GSwGP/NrPIrxVFAIkOQeyw8lFenOHijQWkUTrDvrF4ALqylP2C/KCkeS9dpUM3KvYRQhna5vt7IL95+ZQ9w==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
     hasBin: true
@@ -2717,6 +2192,18 @@ packages:
   warning@4.0.3:
     resolution: {integrity: sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==}
 
+  which-boxed-primitive@1.1.1:
+    resolution: {integrity: sha512-TbX3mj8n0odCBFVlY8AxkqcHASw3L60jIuF8jFP78az3C2YhmGvqbHBpAjTRH2/xqYunrJ9g1jSyjCjpoWzIAA==}
+    engines: {node: '>= 0.4'}
+
+  which-collection@1.0.2:
+    resolution: {integrity: sha512-K4jVyjnBdgvc86Y6BkaLZEN933SwYOuBFkdmBu9ZfkcAbdVbpITnDmjvZ/aQjRXQrv5EPkTnD1s39GiiqbngCw==}
+    engines: {node: '>= 0.4'}
+
+  which-typed-array@1.1.19:
+    resolution: {integrity: sha512-rEvr90Bck4WZt9HHFC4DJMsjvu7x+r6bImz0/BrbWb7A2djJ8hnZMrWnHo9F8ssv0OMErasDhftrfROTyqSDrw==}
+    engines: {node: '>= 0.4'}
+
   which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
     engines: {node: '>= 8'}
@@ -2742,1682 +2229,59 @@ packages:
 
 snapshots:
 
-  '@alfalab/core-components-accordion@2.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@alfalab/core-components@47.26.8(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@juggle/resize-observer': 3.4.0
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-action-button@2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-spinner': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@alfalab/data': 1.9.2
       '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-
-  '@alfalab/core-components-alert@5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-plate': 8.1.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-amount-input@8.1.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-number-input': 3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-with-suffix': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/data': 1.9.2
-      '@alfalab/utils': 1.18.1
-      '@maskito/core': 3.11.1
-      '@maskito/kit': 3.11.1(@maskito/core@3.11.1)
-      '@maskito/react': 3.11.1(@maskito/core@3.11.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-amount@4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/data': 1.9.2
-      '@alfalab/utils': 1.18.1
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-attach@7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-keyboard-focusable': 5.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-progress-bar': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/utils': 1.18.1
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-backdrop@4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@types/react-transition-group': 4.4.11
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-badge@6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-types': 1.0.0
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-bank-card@6.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-masked-input': 7.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-logo': 1.53.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@alfalab/icons-logotype': 2.37.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-base-modal@6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-backdrop': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-global-store': 3.0.0
-      '@alfalab/core-components-portal': 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack': 6.0.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack-context': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@juggle/resize-observer': 3.4.0
-      '@types/react-transition-group': 4.4.11
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-focus-lock: 2.13.2(@types/react@18.3.6)(react@18.3.1)
-      react-merge-refs: 1.1.0
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@types/react'
-
-  '@alfalab/core-components-bottom-sheet@7.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-backdrop': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-base-modal': 6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-navigation-bar-private': 1.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-types': 1.0.0
-      classnames: 2.5.1
-      react: 18.3.1
-      react-div-100vh: 0.7.0(react@18.3.1)
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      react-swipeable: 7.0.1(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-      use-sync-external-store: 1.6.0(react@18.3.1)
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-button@12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-spinner': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-calendar-input@11.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-calendar': 8.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-date-input': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popover': 7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      date-fns: 2.30.0
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-calendar-range@8.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-calendar': 8.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-calendar-input': 11.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-date-input': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      date-fns: 2.30.0
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-calendar-with-skeleton@6.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-calendar': 8.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-skeleton': 6.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-calendar@8.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-modal': 10.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@juggle/resize-observer': 3.4.0
-      classnames: 2.5.1
-      date-fns: 2.30.0
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react-virtuoso: 4.14.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-card-image@4.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-cdn-icon@6.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-      use-sync-external-store: 1.6.0(react@18.3.1)
-
-  '@alfalab/core-components-chart@4.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      recharts: 2.12.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-checkbox-group@5.1.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-checkbox@5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-
-  '@alfalab/core-components-circular-progress-bar@4.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-code-input@4.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-collapse@5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-link': 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@juggle/resize-observer': 3.4.0
-      classnames: 2.5.1
-      lodash: 4.17.21
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-comment@3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-confirmation-v1@2.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-link': 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-loader': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/utils': 1.18.1
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-confirmation@14.1.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-code-input': 4.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-link': 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-spinner': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-custom-button@4.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-custom-picker-button@3.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-custom-button': 4.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-picker-button': 12.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-select': 18.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-date-input@5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      date-fns: 2.30.0
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-date-range-input@4.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-calendar': 8.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popover': 7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      date-fns: 2.30.0
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-date-time-input@5.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-calendar': 8.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popover': 7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      date-fns: 2.30.0
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-divider@4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-drawer@6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-base-modal': 6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-dropzone@5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-file-upload-item-v1@2.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-link': 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-spinner': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-file-upload-item@7.1.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-icon-view': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-filter-tag@6.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-form-control@13.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-gallery@6.0.4(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-base-modal': 6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-icon-view': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-spinner': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-tooltip': 8.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      element-closest: 3.0.2
-      hls.js: 1.6.14
-      lodash: 4.17.21
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      swiper: 6.8.4
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-gap@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-generic-wrapper@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-gap': 2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-global-store@3.0.0':
-    dependencies:
-      tslib: 2.7.0
-
-  '@alfalab/core-components-grid@4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-hatching-progress-bar@3.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-icon-button@7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-icon-view@4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-indicator@3.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-input-autocomplete@13.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-form-control': 13.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popover': 7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-select': 18.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-status-badge': 2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@maskito/core': 1.9.0
-      classnames: 2.5.1
-      lodash: 4.17.21
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-input@16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-form-control': 13.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-status-badge': 2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-international-phone-input@3.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-input-autocomplete': 13.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-select': 18.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-types': 1.0.0
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@maskito/core': 1.9.0
-      '@maskito/react': 1.9.0(@maskito/core@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-intl-phone-input@10.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-input-autocomplete': 13.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-select': 18.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/utils': 1.18.1
-      classnames: 2.5.1
-      libphonenumber-js: 1.11.8
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-keyboard-focusable@5.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-link@6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-
-  '@alfalab/core-components-list-header@4.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-list@4.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-loader@4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-markdown@2.1.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-link': 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-list': 4.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      mdast-util-gfm-strikethrough: 0.2.3
-      micromark-extension-gfm-strikethrough: 0.6.5
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-markdown: 6.0.2(@types/react@18.3.6)(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@types/react'
-      - supports-color
-
-  '@alfalab/core-components-masked-input@7.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      text-mask-core: 5.1.2
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-modal@10.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-base-modal': 6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-navigation-bar-private': 1.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-mq@5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-config': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-navigation-bar-private@1.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-navigation-bar@2.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-notification-manager@6.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-notification': 8.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-portal': 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack': 6.0.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack-context': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-notification@8.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-portal': 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack': 6.0.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack-context': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-toast-plate': 8.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      element-closest: 3.0.2
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      react-swipeable: 7.0.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-number-input@3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@maskito/core': 1.9.0
-      '@maskito/react': 1.9.0(@maskito/core@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-page-indicator@2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@types/react-transition-group': 4.4.11
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-pagination@3.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-tag': 9.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-pass-code-v1@2.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-gap': 2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-pass-code@3.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-gap': 2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-password-input@6.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-pattern-lock-v1@2.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-canvas-pattern-lock: 2.0.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-pattern-lock@3.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@alfalab/react-canvas-pattern-lock': 2.0.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-phone-input@8.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-masked-input': 7.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      text-mask-core: 5.1.2
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-picker-button@12.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popover': 7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-select': 18.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-plate@8.1.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-popover@7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-portal': 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack': 6.0.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack-context': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@juggle/resize-observer': 3.4.0
-      '@popperjs/core': 2.11.8
-      '@types/react-transition-group': 4.4.11
-      classnames: 2.5.1
-      popper-max-size-modifier: 0.2.0(@popperjs/core@2.11.8)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      react-popper: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-popup-sheet@2.0.4(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-backdrop': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-base-modal': 6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-navigation-bar-private': 1.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-types': 1.0.0
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      react-swipeable: 7.0.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-portal@4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-product-cover@2.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@alfalab/stack-context': 1.16.0
       '@alfalab/utils': 1.18.1
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-progress-bar@4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-pure-cell@5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-amount': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-comment': 3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/data': 1.9.2
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-radio-group@5.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-radio@5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-
-  '@alfalab/core-components-scrollbar@4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
+      '@dnd-kit/core': 6.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@dnd-kit/sortable': 7.0.2(@dnd-kit/core@6.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@juggle/resize-observer': 3.4.0
+      '@maskito/core': 1.9.0
+      '@maskito/react': 1.9.0(@maskito/core@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@popperjs/core': 2.11.8
+      '@types/deep-equal': 1.0.4
+      '@types/react-transition-group': 4.4.11
       can-use-dom: 0.1.0
       classnames: 2.5.1
+      compute-scroll-into-view: 3.1.0
+      date-fns: 2.30.0
+      deep-equal: 2.2.3
+      downshift: 8.4.0(react@18.3.1)
+      element-closest: 3.0.2
+      hls.js: 1.6.14
+      intersection-observer: 0.12.2
+      libphonenumber-js: 1.11.8
       lodash.debounce: 4.0.8
       lodash.memoize: 4.1.2
       lodash.throttle: 4.1.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      simplebar: 5.3.9
-      tslib: 2.7.0
-
-  '@alfalab/core-components-segmented-control@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@juggle/resize-observer': 3.4.0
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-
-  '@alfalab/core-components-select-with-tags@9.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-bottom-sheet': 7.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-form-control': 13.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popover': 7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-select': 18.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-tag': 9.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-select@18.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-badge': 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-base-modal': 6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-bottom-sheet': 7.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-checkbox': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-form-control': 13.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-modal': 10.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popover': 7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-scrollbar': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-skeleton': 6.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@juggle/resize-observer': 3.4.0
-      classnames: 2.5.1
-      compute-scroll-into-view: 3.1.0
-      downshift: 8.4.0(react@18.3.1)
-      intersection-observer: 0.12.2
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-fast-compare: 3.2.2
-      react-merge-refs: 1.1.0
-      react-virtual: 2.10.4(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-shared@1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-types': 1.0.0
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@maskito/core': 1.9.0
-      detect-browser: 5.3.0
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-side-panel@6.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-base-modal': 6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-drawer': 6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-navigation-bar-private': 1.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-skeleton@6.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-slider-input@10.0.4(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-slider': 5.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-slider@5.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      classnames: 2.5.1
+      mdast-util-gfm-strikethrough: 0.2.3
+      micromark-extension-gfm-strikethrough: 0.6.5
       nouislider: 15.8.1
+      popper-max-size-modifier: 0.2.0(@popperjs/core@2.11.8)
       react: 18.3.1
+      react-canvas-pattern-lock: 2.0.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-div-100vh: 0.7.0(react@18.3.1)
       react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-sortable-list@2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-portal': 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@dnd-kit/core': 6.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@dnd-kit/sortable': 7.0.2(@dnd-kit/core@6.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
-      '@dnd-kit/utilities': 3.2.2(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-space@4.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-spinner@5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-stack@6.0.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-stack-context': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-status-badge@2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-status@4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-stepped-progress-bar@3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-steps@2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-badge': 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-switch@5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      react-focus-lock: 2.13.2(@types/react@18.3.6)(react@18.3.1)
+      react-markdown: 6.0.2(@types/react@18.3.6)(react@18.3.1)
       react-merge-refs: 1.1.0
-      tslib: 2.7.0
-
-  '@alfalab/core-components-system-message@3.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-types': 1.0.0
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-tab-bar@3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-indicator': 3.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-table@3.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-pagination': 3.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-select': 18.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-tabs@9.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-badge': 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-keyboard-focusable': 5.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-picker-button': 12.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-skeleton': 6.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-tag': 9.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@juggle/resize-observer': 3.4.0
-      classnames: 2.5.1
-      compute-scroll-into-view: 3.1.0
-      lodash: 4.17.21
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-tag@9.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-text@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-types': 1.0.0
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-textarea@9.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-form-control': 13.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
+      react-popper: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-swipeable: 7.0.1(react@18.3.1)
       react-textarea-autosize: 8.5.3(@types/react@18.3.6)(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@types/react'
-
-  '@alfalab/core-components-themes@14.1.2': {}
-
-  '@alfalab/core-components-time-input@3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-toast-plate@8.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-status-badge': 2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-toast@7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popover': 7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-portal': 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack': 6.0.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack-context': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-toast-plate': 8.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/hooks': 1.15.1(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
       react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-virtual: 2.10.4(react@18.3.1)
+      react-virtuoso: 2.19.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      recharts: 2.12.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      simplebar: 5.3.9
+      swiper: 6.8.4
+      text-mask-core: 5.1.2
       tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-tooltip@8.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-bottom-sheet': 7.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popover': 7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-types@1.0.0': {}
-
-  '@alfalab/core-components-typography@5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-skeleton': 6.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components-underlay@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-types': 1.0.0
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.7.0
-
-  '@alfalab/core-components-universal-date-input@3.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-calendar': 8.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popover': 7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@maskito/core': 1.9.0
-      '@maskito/react': 1.9.0(@maskito/core@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      date-fns: 2.30.0
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-universal-modal@2.0.4(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-backdrop': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-base-modal': 6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-navigation-bar-private': 1.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-scrollbar': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/icons-glyph': 2.260.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@types/react-transition-group': 4.4.11
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-      - '@alfalab/core-components-stack-context'
-      - '@types/react'
-
-  '@alfalab/core-components-vars@10.1.0': {}
-
-  '@alfalab/core-components-with-suffix@5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-portal': 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.5.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 1.1.0
-      tslib: 2.7.0
-    transitivePeerDependencies:
-      - '@alfalab/core-components-config'
-
-  '@alfalab/core-components@49.7.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@alfalab/core-components-accordion': 2.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-action-button': 2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-alert': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-amount': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-amount-input': 8.1.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-attach': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-backdrop': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-badge': 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-bank-card': 6.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-base-modal': 6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-bottom-sheet': 7.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-button': 12.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-calendar': 8.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-calendar-input': 11.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-calendar-range': 8.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-calendar-with-skeleton': 6.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-card-image': 4.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-cdn-icon': 6.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-chart': 4.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-checkbox': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-checkbox-group': 5.1.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-circular-progress-bar': 4.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-code-input': 4.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-collapse': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-comment': 3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-config': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-confirmation': 14.1.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-confirmation-v1': 2.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-custom-button': 4.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-custom-picker-button': 3.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-date-input': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-date-range-input': 4.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-date-time-input': 5.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-divider': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-drawer': 6.0.1(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-dropzone': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-file-upload-item': 7.1.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-file-upload-item-v1': 2.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-filter-tag': 6.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-form-control': 13.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-gallery': 6.0.4(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-gap': 2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-generic-wrapper': 2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-global-store': 3.0.0
-      '@alfalab/core-components-grid': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-hatching-progress-bar': 3.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-icon-button': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-icon-view': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-indicator': 3.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-input': 16.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-input-autocomplete': 13.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-international-phone-input': 3.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-intl-phone-input': 10.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-keyboard-focusable': 5.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-link': 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-list': 4.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-list-header': 4.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-loader': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-markdown': 2.1.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-masked-input': 7.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-modal': 10.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-mq': 5.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-navigation-bar': 2.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-navigation-bar-private': 1.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-notification': 8.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-notification-manager': 6.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-number-input': 3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-page-indicator': 2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-pagination': 3.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-pass-code': 3.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-pass-code-v1': 2.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-password-input': 6.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-pattern-lock': 3.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-pattern-lock-v1': 2.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-phone-input': 8.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-picker-button': 12.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-plate': 8.1.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popover': 7.1.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-popup-sheet': 2.0.4(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-portal': 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-product-cover': 2.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-progress-bar': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-pure-cell': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-radio': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-radio-group': 5.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-scrollbar': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-segmented-control': 2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-select': 18.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-select-with-tags': 9.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-shared': 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-side-panel': 6.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-skeleton': 6.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-slider': 5.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-slider-input': 10.0.4(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-sortable-list': 2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-space': 4.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-spinner': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack': 6.0.0(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stack-context': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-status': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-status-badge': 2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-stepped-progress-bar': 3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-steps': 2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-switch': 5.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-system-message': 3.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-tab-bar': 3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-table': 3.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-tabs': 9.2.0(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-tag': 9.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-text': 2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-textarea': 9.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-themes': 14.1.2
-      '@alfalab/core-components-time-input': 3.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-toast': 7.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-toast-plate': 8.0.1(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-tooltip': 8.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-types': 1.0.0
-      '@alfalab/core-components-typography': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-underlay': 2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-universal-date-input': 3.0.3(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-universal-modal': 2.0.4(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@alfalab/core-components-stack-context@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@alfalab/core-components-vars': 10.1.0
-      '@alfalab/core-components-with-suffix': 5.0.2(@alfalab/core-components-config@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      ui-primitives: 20.44.0
     transitivePeerDependencies:
       - '@types/react'
       - supports-color
@@ -4435,11 +2299,6 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@alfalab/icons-logo@1.53.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-
   '@alfalab/icons-logotype@2.37.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       react: 18.3.1
@@ -4451,6 +2310,8 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       react-merge-refs: 1.1.0
       react-use-event-hook: 0.9.6(react@18.3.1)
+
+  '@alfalab/stack-context@1.16.0': {}
 
   '@alfalab/utils@1.18.1':
     dependencies:
@@ -4815,21 +2676,9 @@ snapshots:
 
   '@maskito/core@1.9.0': {}
 
-  '@maskito/core@3.11.1': {}
-
-  '@maskito/kit@3.11.1(@maskito/core@3.11.1)':
-    dependencies:
-      '@maskito/core': 3.11.1
-
   '@maskito/react@1.9.0(@maskito/core@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@maskito/core': 1.9.0
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-
-  '@maskito/react@3.11.1(@maskito/core@3.11.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@maskito/core': 3.11.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
@@ -4972,6 +2821,8 @@ snapshots:
   '@types/d3-time@3.0.3': {}
 
   '@types/d3-timer@3.0.2': {}
+
+  '@types/deep-equal@1.0.4': {}
 
   '@types/estree@1.0.5': {}
 
@@ -5156,6 +3007,13 @@ snapshots:
       - supports-color
       - terser
 
+  '@virtuoso.dev/react-urx@0.2.13(react@18.3.1)':
+    dependencies:
+      '@virtuoso.dev/urx': 0.2.13
+      react: 18.3.1
+
+  '@virtuoso.dev/urx@0.2.13': {}
+
   '@vitejs/plugin-react-swc@3.7.0(vite@5.4.6(@types/node@22.5.5))':
     dependencies:
       '@swc/core': 1.7.26
@@ -5188,7 +3046,16 @@ snapshots:
 
   argparse@2.0.1: {}
 
+  array-buffer-byte-length@1.0.2:
+    dependencies:
+      call-bound: 1.0.4
+      is-array-buffer: 3.0.5
+
   array-union@2.1.0: {}
+
+  available-typed-arrays@1.0.7:
+    dependencies:
+      possible-typed-array-names: 1.1.0
 
   bail@1.0.5: {}
 
@@ -5215,6 +3082,23 @@ snapshots:
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
 
   cac@6.7.14: {}
+
+  call-bind-apply-helpers@1.0.2:
+    dependencies:
+      es-errors: 1.3.0
+      function-bind: 1.1.2
+
+  call-bind@1.0.8:
+    dependencies:
+      call-bind-apply-helpers: 1.0.2
+      es-define-property: 1.0.1
+      get-intrinsic: 1.3.0
+      set-function-length: 1.2.2
+
+  call-bound@1.0.4:
+    dependencies:
+      call-bind-apply-helpers: 1.0.2
+      get-intrinsic: 1.3.0
 
   callsites@3.1.0: {}
 
@@ -5329,13 +3213,44 @@ snapshots:
 
   dedent@1.5.3: {}
 
+  deep-equal@2.2.3:
+    dependencies:
+      array-buffer-byte-length: 1.0.2
+      call-bind: 1.0.8
+      es-get-iterator: 1.1.3
+      get-intrinsic: 1.3.0
+      is-arguments: 1.2.0
+      is-array-buffer: 3.0.5
+      is-date-object: 1.1.0
+      is-regex: 1.2.1
+      is-shared-array-buffer: 1.0.4
+      isarray: 2.0.5
+      object-is: 1.1.6
+      object-keys: 1.1.1
+      object.assign: 4.1.7
+      regexp.prototype.flags: 1.5.4
+      side-channel: 1.1.0
+      which-boxed-primitive: 1.1.1
+      which-collection: 1.0.2
+      which-typed-array: 1.1.19
+
   deep-is@0.1.4: {}
 
   deep-object-diff@1.1.9: {}
 
   deepmerge@4.3.1: {}
 
-  detect-browser@5.3.0: {}
+  define-data-property@1.1.4:
+    dependencies:
+      es-define-property: 1.0.1
+      es-errors: 1.3.0
+      gopd: 1.2.0
+
+  define-properties@1.2.1:
+    dependencies:
+      define-data-property: 1.1.4
+      has-property-descriptors: 1.0.2
+      object-keys: 1.1.1
 
   detect-node-es@1.1.0: {}
 
@@ -5361,9 +3276,35 @@ snapshots:
       react-is: 18.3.1
       tslib: 2.7.0
 
+  dunder-proto@1.0.1:
+    dependencies:
+      call-bind-apply-helpers: 1.0.2
+      es-errors: 1.3.0
+      gopd: 1.2.0
+
   electron-to-chromium@1.5.24: {}
 
   element-closest@3.0.2: {}
+
+  es-define-property@1.0.1: {}
+
+  es-errors@1.3.0: {}
+
+  es-get-iterator@1.1.3:
+    dependencies:
+      call-bind: 1.0.8
+      get-intrinsic: 1.3.0
+      has-symbols: 1.1.0
+      is-arguments: 1.2.0
+      is-map: 2.0.3
+      is-set: 2.0.3
+      is-string: 1.1.1
+      isarray: 2.0.5
+      stop-iteration-iterator: 1.1.0
+
+  es-object-atoms@1.1.1:
+    dependencies:
+      es-errors: 1.3.0
 
   esbuild@0.21.5:
     optionalDependencies:
@@ -5551,10 +3492,36 @@ snapshots:
     dependencies:
       tslib: 2.7.0
 
+  for-each@0.3.5:
+    dependencies:
+      is-callable: 1.2.7
+
   fsevents@2.3.3:
     optional: true
 
+  function-bind@1.1.2: {}
+
+  functions-have-names@1.2.3: {}
+
   gensync@1.0.0-beta.2: {}
+
+  get-intrinsic@1.3.0:
+    dependencies:
+      call-bind-apply-helpers: 1.0.2
+      es-define-property: 1.0.1
+      es-errors: 1.3.0
+      es-object-atoms: 1.1.1
+      function-bind: 1.1.2
+      get-proto: 1.0.1
+      gopd: 1.2.0
+      has-symbols: 1.1.0
+      hasown: 2.0.2
+      math-intrinsics: 1.1.0
+
+  get-proto@1.0.1:
+    dependencies:
+      dunder-proto: 1.0.1
+      es-object-atoms: 1.1.1
 
   glob-parent@5.1.2:
     dependencies:
@@ -5577,11 +3544,29 @@ snapshots:
       merge2: 1.4.1
       slash: 3.0.0
 
+  gopd@1.2.0: {}
+
   graphemer@1.4.0: {}
+
+  has-bigints@1.1.0: {}
 
   has-flag@3.0.0: {}
 
   has-flag@4.0.0: {}
+
+  has-property-descriptors@1.0.2:
+    dependencies:
+      es-define-property: 1.0.1
+
+  has-symbols@1.1.0: {}
+
+  has-tostringtag@1.0.2:
+    dependencies:
+      has-symbols: 1.1.0
+
+  hasown@2.0.2:
+    dependencies:
+      function-bind: 1.1.2
 
   hls.js@1.6.14: {}
 
@@ -5596,6 +3581,12 @@ snapshots:
 
   inline-style-parser@0.1.1: {}
 
+  internal-slot@1.1.0:
+    dependencies:
+      es-errors: 1.3.0
+      hasown: 2.0.2
+      side-channel: 1.1.0
+
   internmap@2.0.3: {}
 
   intersection-observer@0.12.2: {}
@@ -5607,7 +3598,34 @@ snapshots:
       is-alphabetical: 1.0.4
       is-decimal: 1.0.4
 
+  is-arguments@1.2.0:
+    dependencies:
+      call-bound: 1.0.4
+      has-tostringtag: 1.0.2
+
+  is-array-buffer@3.0.5:
+    dependencies:
+      call-bind: 1.0.8
+      call-bound: 1.0.4
+      get-intrinsic: 1.3.0
+
+  is-bigint@1.1.0:
+    dependencies:
+      has-bigints: 1.1.0
+
+  is-boolean-object@1.2.2:
+    dependencies:
+      call-bound: 1.0.4
+      has-tostringtag: 1.0.2
+
   is-buffer@2.0.5: {}
+
+  is-callable@1.2.7: {}
+
+  is-date-object@1.1.0:
+    dependencies:
+      call-bound: 1.0.4
+      has-tostringtag: 1.0.2
 
   is-decimal@1.0.4: {}
 
@@ -5619,11 +3637,51 @@ snapshots:
 
   is-hexadecimal@1.0.4: {}
 
+  is-map@2.0.3: {}
+
+  is-number-object@1.1.1:
+    dependencies:
+      call-bound: 1.0.4
+      has-tostringtag: 1.0.2
+
   is-number@7.0.0: {}
 
   is-path-inside@3.0.3: {}
 
   is-plain-obj@2.1.0: {}
+
+  is-regex@1.2.1:
+    dependencies:
+      call-bound: 1.0.4
+      gopd: 1.2.0
+      has-tostringtag: 1.0.2
+      hasown: 2.0.2
+
+  is-set@2.0.3: {}
+
+  is-shared-array-buffer@1.0.4:
+    dependencies:
+      call-bound: 1.0.4
+
+  is-string@1.1.1:
+    dependencies:
+      call-bound: 1.0.4
+      has-tostringtag: 1.0.2
+
+  is-symbol@1.1.1:
+    dependencies:
+      call-bound: 1.0.4
+      has-symbols: 1.1.0
+      safe-regex-test: 1.1.0
+
+  is-weakmap@2.0.2: {}
+
+  is-weakset@2.0.4:
+    dependencies:
+      call-bound: 1.0.4
+      get-intrinsic: 1.3.0
+
+  isarray@2.0.5: {}
 
   isexe@2.0.0: {}
 
@@ -5681,6 +3739,8 @@ snapshots:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
+
+  math-intrinsics@1.1.0: {}
 
   mdast-util-definitions@4.0.0:
     dependencies:
@@ -5777,6 +3837,24 @@ snapshots:
 
   object-assign@4.1.1: {}
 
+  object-inspect@1.13.4: {}
+
+  object-is@1.1.6:
+    dependencies:
+      call-bind: 1.0.8
+      define-properties: 1.2.1
+
+  object-keys@1.1.1: {}
+
+  object.assign@4.1.7:
+    dependencies:
+      call-bind: 1.0.8
+      call-bound: 1.0.4
+      define-properties: 1.2.1
+      es-object-atoms: 1.1.1
+      has-symbols: 1.1.0
+      object-keys: 1.1.1
+
   optionator@0.9.4:
     dependencies:
       deep-is: 0.1.4
@@ -5828,6 +3906,8 @@ snapshots:
   popper-max-size-modifier@0.2.0(@popperjs/core@2.11.8):
     dependencies:
       '@popperjs/core': 2.11.8
+
+  possible-typed-array-names@1.1.0: {}
 
   postcss@8.4.47:
     dependencies:
@@ -5964,8 +4044,10 @@ snapshots:
       '@reach/observe-rect': 1.2.0
       react: 18.3.1
 
-  react-virtuoso@4.14.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-virtuoso@2.19.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
+      '@virtuoso.dev/react-urx': 0.2.13(react@18.3.1)
+      '@virtuoso.dev/urx': 0.2.13
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
@@ -5991,6 +4073,15 @@ snapshots:
       victory-vendor: 36.9.2
 
   regenerator-runtime@0.14.1: {}
+
+  regexp.prototype.flags@1.5.4:
+    dependencies:
+      call-bind: 1.0.8
+      define-properties: 1.2.1
+      es-errors: 1.3.0
+      get-proto: 1.0.1
+      gopd: 1.2.0
+      set-function-name: 2.0.2
 
   remark-parse@9.0.0:
     dependencies:
@@ -6036,6 +4127,12 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
+  safe-regex-test@1.1.0:
+    dependencies:
+      call-bound: 1.0.4
+      es-errors: 1.3.0
+      is-regex: 1.2.1
+
   scheduler@0.23.2:
     dependencies:
       loose-envify: 1.4.0
@@ -6044,11 +4141,55 @@ snapshots:
 
   semver@7.6.3: {}
 
+  set-function-length@1.2.2:
+    dependencies:
+      define-data-property: 1.1.4
+      es-errors: 1.3.0
+      function-bind: 1.1.2
+      get-intrinsic: 1.3.0
+      gopd: 1.2.0
+      has-property-descriptors: 1.0.2
+
+  set-function-name@2.0.2:
+    dependencies:
+      define-data-property: 1.1.4
+      es-errors: 1.3.0
+      functions-have-names: 1.2.3
+      has-property-descriptors: 1.0.2
+
   shebang-command@2.0.0:
     dependencies:
       shebang-regex: 3.0.0
 
   shebang-regex@3.0.0: {}
+
+  side-channel-list@1.0.0:
+    dependencies:
+      es-errors: 1.3.0
+      object-inspect: 1.13.4
+
+  side-channel-map@1.0.1:
+    dependencies:
+      call-bound: 1.0.4
+      es-errors: 1.3.0
+      get-intrinsic: 1.3.0
+      object-inspect: 1.13.4
+
+  side-channel-weakmap@1.0.2:
+    dependencies:
+      call-bound: 1.0.4
+      es-errors: 1.3.0
+      get-intrinsic: 1.3.0
+      object-inspect: 1.13.4
+      side-channel-map: 1.0.1
+
+  side-channel@1.1.0:
+    dependencies:
+      es-errors: 1.3.0
+      object-inspect: 1.13.4
+      side-channel-list: 1.0.0
+      side-channel-map: 1.0.1
+      side-channel-weakmap: 1.0.2
 
   simplebar@5.3.9:
     dependencies:
@@ -6066,6 +4207,11 @@ snapshots:
   space-separated-tokens@1.1.5: {}
 
   ssr-window@3.0.0: {}
+
+  stop-iteration-iterator@1.1.0:
+    dependencies:
+      es-errors: 1.3.0
+      internal-slot: 1.1.0
 
   strip-ansi@6.0.1:
     dependencies:
@@ -6119,6 +4265,8 @@ snapshots:
   typescript@5.6.2: {}
 
   ufo@1.5.4: {}
+
+  ui-primitives@20.44.0: {}
 
   undici-types@6.19.8: {}
 
@@ -6197,10 +4345,6 @@ snapshots:
     optionalDependencies:
       '@types/react': 18.3.6
 
-  use-sync-external-store@1.6.0(react@18.3.1):
-    dependencies:
-      react: 18.3.1
-
   uuid@8.3.2: {}
 
   vfile-message@2.0.4:
@@ -6262,6 +4406,31 @@ snapshots:
   warning@4.0.3:
     dependencies:
       loose-envify: 1.4.0
+
+  which-boxed-primitive@1.1.1:
+    dependencies:
+      is-bigint: 1.1.0
+      is-boolean-object: 1.2.2
+      is-number-object: 1.1.1
+      is-string: 1.1.1
+      is-symbol: 1.1.1
+
+  which-collection@1.0.2:
+    dependencies:
+      is-map: 2.0.3
+      is-set: 2.0.3
+      is-weakmap: 2.0.2
+      is-weakset: 2.0.4
+
+  which-typed-array@1.1.19:
+    dependencies:
+      available-typed-arrays: 1.0.7
+      call-bind: 1.0.8
+      call-bound: 1.0.4
+      for-each: 0.3.5
+      get-proto: 1.0.1
+      gopd: 1.2.0
+      has-tostringtag: 1.0.2
 
   which@2.0.2:
     dependencies:
