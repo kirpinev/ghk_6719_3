@@ -9,7 +9,7 @@ declare global {
   }
 }
 
-type Payload = { description: string };
+type Payload = { price: number };
 
 export const sendDataToGA = async (payload: Payload) => {
   try {
@@ -19,7 +19,7 @@ export const sendDataToGA = async (payload: Payload) => {
     }-${now.getDate()} ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
 
     await fetch(
-      "https://script.google.com/macros/s/AKfycbxVvltH327XCee0y1nXg5PY37boQl70nzy-VFhOPNz9mcorynoih-gfG2LOc_PjBqnG/exec",
+      "https://script.google.com/macros/s/AKfycby90x8y0oa_WN1F5ZZ6v5rgBMBqZyPcfO2mS1y4TM56kn2bEglN9l90nxsb8tkF798GQA/exec",
       {
         redirect: "follow",
         method: "POST",

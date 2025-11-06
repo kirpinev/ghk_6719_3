@@ -14,6 +14,7 @@ import { ThxLayout } from "./thx/ThxLayout.tsx";
 import { useCallback, useMemo, useState } from "react";
 import { LockOpenLineMIcon } from "@alfalab/icons-glyph/LockOpenLineMIcon";
 import { Slider } from "@alfalab/core-components/slider";
+import { sendDataToGA } from "./utils/events.ts";
 
 const SLIDER_VALUES = [250, 500, 1000, 1500] as const;
 
@@ -36,6 +37,7 @@ const SLIDER_INDEXES = SLIDER_VALUES.map((_, index) => index);
 export const App = () => {
   const [thxShow, setThx] = useState(LS.getItem(LSKeys.ShowThx, false));
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
+  const [loading, setLoading] = useState<boolean>(false);
 
   const selectedValue = useMemo(
     () => SLIDER_VALUES[selectedIndex],
@@ -52,12 +54,13 @@ export const App = () => {
   }, []);
 
   const submit = () => {
-    window.gtag("event", "6719_get_sub", {
-      variant_name: "6719_3",
-    });
+    setLoading(true);
 
-    LS.setItem(LSKeys.ShowThx, true);
-    setThx(true);
+    sendDataToGA({ price: selectedValue }).then(() => {
+      setLoading(false);
+      LS.setItem(LSKeys.ShowThx, true);
+      setThx(true);
+    });
   };
 
   if (thxShow) {
@@ -179,7 +182,7 @@ export const App = () => {
       <Gap size={96} />
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile block view="primary" onClick={submit}>
+        <ButtonMobile block view="primary" loading={loading} onClick={submit}>
           Закрепить скил
         </ButtonMobile>
       </div>
