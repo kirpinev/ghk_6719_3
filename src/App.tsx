@@ -10,7 +10,6 @@ import image1500 from "./assets/1500.png";
 import { LS, LSKeys } from "./ls";
 import { appSt } from "./style.css";
 import { Gap } from "@alfalab/core-components/gap";
-import { ThxLayout } from "./thx/ThxLayout.tsx";
 import { useCallback, useMemo, useState } from "react";
 import { LockOpenLineMIcon } from "@alfalab/icons-glyph/LockOpenLineMIcon";
 import { Slider } from "@alfalab/core-components/slider";
@@ -34,8 +33,16 @@ const map1 = {
 
 const SLIDER_INDEXES = SLIDER_VALUES.map((_, index) => index);
 
+const deepLink =
+  "alfabank://sdui_screen?screenName=InvestmentLongread&fromCurrent=true&shouldUseBottomSafeArea=true&shouldUseBottomSafeArea=true&endpoint=v1/invest-main-screen-view/investment-longread/55160%3flocation=AM_WN_MAIN%26campaignCode=ONB_ME2ME_S1";
+
+const Redirect = () => {
+  window.location.href = deepLink;
+
+  return null;
+};
+
 export const App = () => {
-  const [thxShow, setThx] = useState(LS.getItem(LSKeys.ShowThx, false));
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const [loading, setLoading] = useState<boolean>(false);
 
@@ -59,12 +66,11 @@ export const App = () => {
     sendDataToGA({ price: selectedValue }).then(() => {
       setLoading(false);
       LS.setItem(LSKeys.ShowThx, true);
-      setThx(true);
     });
   };
 
-  if (thxShow) {
-    return <ThxLayout />;
+  if (LS.getItem(LSKeys.ShowThx, false)) {
+    return <Redirect />;
   }
 
   return (
@@ -182,7 +188,13 @@ export const App = () => {
       <Gap size={96} />
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile block view="primary" loading={loading} onClick={submit}>
+        <ButtonMobile
+          block
+          view="primary"
+          loading={loading}
+          href={deepLink}
+          onClick={submit}
+        >
           Закрепить скил
         </ButtonMobile>
       </div>
